@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Hello world" /> -->
+  <IncremenDecrement title="Increment And Decrement" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import IncremenDecrement from "./components/IncrementDecrement.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    IncremenDecrement,
+  },
+};
 </script>
 
 <style>
