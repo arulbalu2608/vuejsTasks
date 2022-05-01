@@ -1,14 +1,17 @@
 <template>
   <!-- <HelloWorld msg="Hello world" /> -->
-  <IncremenDecrement title="Increment And Decrement" />
+  <!-- <IncremenDecrement title="Increment And Decrement" /> -->
+  <LoginForm title="Login" />
 </template>
 
 <script>
-import IncremenDecrement from "./components/IncrementDecrement.vue";
+// import IncremenDecrement from "./components/IncrementDecrement/IncrementDecrement.vue";
+import LoginForm from "./components/LoginForm/LoginForm.vue";
 export default {
   name: "App",
   components: {
-    IncremenDecrement,
+    // IncremenDecrement,
+    LoginForm,
   },
 };
 </script>
