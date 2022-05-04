@@ -2,19 +2,22 @@
   <!-- <HelloWorld msg="Hello world" /> -->
   <!-- <IncremenDecrement title="Increment And Decrement" /> -->
   <!-- <LoginForm title="Login" /> -->
-  <ConditionalComp title="ConditionalRendering" />
+  <!-- <ConditionalComp title="ConditionalRendering" /> -->
+  <LoopComp title="LoopComponent" />
 </template>
 
 <script>
 // import IncremenDecrement from "./components/IncrementDecrement/IncrementDecrement.vue";
 // import LoginForm from "./components/LoginForm/LoginForm.vue";
-import ConditionalComp from "./components/ConditionalRendering/ConditionalRendering.vue";
+// import ConditionalComp from "./components/ConditionalRendering/ConditionalRendering.vue";
+import LoopComp from "./components/LoopConcept/LoopConcept.vue";
 export default {
   name: "App",
   components: {
     // IncremenDecrement,
     // LoginForm,
-    ConditionalComp,
+    // ConditionalComp,
+    LoopComp,
   },
 };
 </script>
