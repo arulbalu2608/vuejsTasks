@@ -1,26 +1,13 @@
 <template>
-  <!-- <HelloWorld msg="Hello world" /> -->
-  <!-- <IncremenDecrement title="Increment And Decrement" /> -->
-  <!-- <LoginForm title="Login" /> -->
-  <!-- <ConditionalComp title="ConditionalRendering" /> -->
-  <LoopComp title="LoopComponent" />
+  <nav>
+    <router-link to="/">Hello World</router-link> |
+    <router-link to="/incremnet-decrement">IncDec</router-link> |
+    <router-link to="/login-form">Login</router-link> |
+    <router-link to="/conditional-rendering">Conditional</router-link> |
+    <router-link to="/loop-concept">Loop</router-link>
+  </nav>
+  <router-view />
 </template>
-
-<script>
-// import IncremenDecrement from "./components/IncrementDecrement/IncrementDecrement.vue";
-// import LoginForm from "./components/LoginForm/LoginForm.vue";
-// import ConditionalComp from "./components/ConditionalRendering/ConditionalRendering.vue";
-import LoopComp from "./components/LoopConcept/LoopConcept.vue";
-export default {
-  name: "App",
-  components: {
-    // IncremenDecrement,
-    // LoginForm,
-    // ConditionalComp,
-    LoopComp,
-  },
-};
-</script>
 
 <style>
 #app {
@@ -29,6 +16,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
