@@ -34,6 +34,12 @@ const routes = [
     name: "loopConcept",
     component: () => import("../components/LoopConcept/LoopConcept.vue"),
   },
+  {
+    path: "/increment-by-vue",
+    name: "incrementByVuex",
+    component: () =>
+      import("../components/IncrementWithVuex/IncrementWithVuex.vue"),
+  },
 ];
 
 const router = createRouter({

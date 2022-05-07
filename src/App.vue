@@ -4,7 +4,8 @@
     <router-link to="/incremnet-decrement">IncDec</router-link> |
     <router-link to="/login-form">Login</router-link> |
     <router-link to="/conditional-rendering">Conditional</router-link> |
-    <router-link to="/loop-concept">Loop</router-link>
+    <router-link to="/loop-concept">Loop</router-link> |
+    <router-link to="/increment-by-vue">Incremen By Vuex</router-link>
   </nav>
   <router-view />
 </template>
